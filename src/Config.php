@@ -36,10 +36,10 @@ class Config
     {
         if (is_array($file)){
             foreach ($file as $item) {
-                $this->ykle($item);
+                $this->upload($item);
             }
         }else{
-            $this->ykle($file);
+            $this->upload($file);
         }
     }
 
@@ -102,7 +102,7 @@ class Config
     /**
      * @param $file
      */
-    public function ykle($file){
+    public function upload($file){
         $temp = require realpath('.').'/'.$file;
         if (is_callable($temp)) {
             $temp = call_user_func($temp);
