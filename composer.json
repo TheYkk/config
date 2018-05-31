@@ -1,0 +1,28 @@
+{
+  "name": "TheYkk/config",
+  "type": "library",
+  "description": "simple config class for php",
+  "keywords": [
+    "php",
+    "config",
+    "class",
+    "simple"
+  ],
+  "homepage": "https://github.com/TheYkk/config",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Yusuf Kaan Karakaya",
+      "email": "yusufkaan142@gmail.com",
+      "homepage": "http://theykk.net"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "TheYkk\\": "src"
+    }
+  }
+}

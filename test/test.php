@@ -8,10 +8,13 @@
 
 
 require '../src/Config.php';
+use TheYkk\Config;
 
-$cnf = new \TheYkk\Config('rot.php');
+
+$cnf =  Config::load('rot.php');
 
 echo $cnf->get('rot.application.name');
+echo '<br>';
 $cnf->set('genel.durum','oldu');
 
 echo $cnf->get('genel.durum');
