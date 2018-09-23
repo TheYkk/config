@@ -6,9 +6,9 @@
 Yapılandırma çok basit ve kullanımı kolay olacak şekilde tasarlanmıştır. Kullanim methodlari set , get , load , has .
 
 
-### Dosya Yukleme
+### Dosya Tanimlama
 
-`Config` classi statik olarak `load()` fonksiyonu ile yuklenebilir , ya da dire Config classi olusturulabilir.
+`Config` classi statik olarak `load()` fonksiyonu ile yuklenebilir , ya da direk Config classi olusturulabilir.
 
 ```php
 use TheYkk\Config;
